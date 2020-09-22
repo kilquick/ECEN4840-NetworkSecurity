@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1653368-e34c-4878-9cdd-8a2f6f98126a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/OTPCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/OTPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ECEN4840-Lab1/src/CaesarCipherMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-Lab1/src/CaesarCipherMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECEN4840-Lab1/src/OTPCipher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ECEN4840-Lab1/CaesarCipherMain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +50,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.OTPCipher">
-    <configuration name="OTPCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OTPCipher" />
+  <component name="RunManager" selected="Application.CaesarCipherMain (1)">
+    <configuration name="CaesarCipherMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaesarCipherMain" />
+      <module name="ECEN4840-Lab1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaesarCipherMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaesarCipherMain" />
       <module name="ECEN4840-Lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,9 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CaesarCipherMain" />
+      <item itemvalue="Application.VigenereCipher" />
+      <item itemvalue="Application.CaesarCipherMain (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OTPCipher" />
+        <item itemvalue="Application.CaesarCipherMain (1)" />
+        <item itemvalue="Application.CaesarCipherMain" />
         <item itemvalue="Application.VigenereCipher" />
       </list>
     </recent_temporary>
@@ -95,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600737911753</updated>
-      <workItem from="1600737913066" duration="4365000" />
+      <workItem from="1600737913066" duration="4658000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1600737957067</created>
@@ -125,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600740614939</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Init git">
+      <created>1600742500754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600742500754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Init git">
+      <created>1600742580765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600742580765</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,22 +159,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Init git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600740648994">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600742712477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600740648994" />
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600740647075">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742712477" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600742710139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600740647075" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742710139" />
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600740715011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600740715011" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600742455141">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600742658670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742455141" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742658670" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600737923104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,30 +183,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600738113422" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1600741511542">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1600742741981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600741511542" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1600741511542">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742741981" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1600742741981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600741511542" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1600741511541">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742741981" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1600742741981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600741511541" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1600741511542">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742741981" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1600742741981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600741511542" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742741981" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1600738161776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600738161776" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600740616672">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600742587935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600740616672" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742587935" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600742464058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600742464058" />
     <state x="-1811" y="-8" width="1424" height="717" maximized="true" key="dock-window-1" timestamp="1600741688979">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>

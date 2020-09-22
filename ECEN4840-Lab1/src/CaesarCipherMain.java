@@ -53,7 +53,7 @@ public class CaesarCipherMain {
     }
 
     private static String messageEncoder(String message, int key, boolean transform){
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int ii = 0; ii<message.length(); ii++){
             int newCharacterNumber = 0;
             char character = message.charAt(ii);
