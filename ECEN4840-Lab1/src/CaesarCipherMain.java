@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class CaesarCipherMain {
     private final static List<Character> alphabet = Arrays.asList('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
-                                                    'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
-                                                    'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+                                                                'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+                                                                'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
     private static boolean encode = false;
 
     public static void main(String[] args) {
