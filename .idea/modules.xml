@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ECEN4840 - Network Security.iml" filepath="$PROJECT_DIR$/.idea/ECEN4840 - Network Security.iml" />
       <module fileurl="file://$PROJECT_DIR$/ECEN4840-Lab1/ECEN4840-Lab1.iml" filepath="$PROJECT_DIR$/ECEN4840-Lab1/ECEN4840-Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ECEN4840-Lab2/ECEN4840-Lab2.iml" filepath="$PROJECT_DIR$/ECEN4840-Lab2/ECEN4840-Lab2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Substitution Cipher/Substitution Cipher.iml" filepath="$PROJECT_DIR$/Substitution Cipher/Substitution Cipher.iml" />
     </modules>
   </component>
