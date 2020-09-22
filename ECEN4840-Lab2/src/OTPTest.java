@@ -32,7 +32,7 @@ public class OTPTest {
                 int index = alphaU.indexOf(textChar);
                 int keydex = alphaU.indexOf(Character.toUpperCase(keyget));
 
-                int total = (index + keydex) % 26;
+                int total = (index + keydex) % 27;
 
                 sb.append(alphaU.charAt(total));
             }
@@ -40,7 +40,7 @@ public class OTPTest {
                 int index = alphaL.indexOf(textChar);
                 int keydex = alphaU.indexOf(Character.toLowerCase(keyget));
 
-                int total = (index + keydex) % 26;
+                int total = (index + keydex) % 27;
 
                 sb.append(alphaL.charAt(total));
             }
@@ -65,8 +65,8 @@ public class OTPTest {
                 int index = alphaU.indexOf(getChar);
                 int keydex = alphaU.indexOf(Character.toUpperCase(keyget));
 
-                int total = (index - keydex) % 26;
-                total = (total<0)? total + 26 : total;
+                int total = (index - keydex) % 27;
+                total = (total<0)? total + 27 : total;
 
                 sb.append(alphaU.charAt(total));
             }
