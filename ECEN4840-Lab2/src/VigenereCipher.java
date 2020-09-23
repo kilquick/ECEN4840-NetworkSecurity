@@ -13,22 +13,21 @@ public class VigenereCipher {
         for (int i = 0, j = 0; i < text.length(); i++) {
             char c = text.charAt(i);
             if (c < 'A' || c > 'Z') continue;
-            res += (char)((c + key.charAt(j) - 2 * 'A') % 26 + 'A');
+            res += (char)(((c - 'A') + (key.charAt(j) - 'A')) % 26 + 'A');
             j = ++j % key.length();
         }
         return res;
     }
 
     static String decrypt(String text, final String key) {
-        String txt = "";
+        String res = "";
         text = text.toUpperCase();
         for (int i = 0, j = 0; i < text.length(); i++) {
             char c = text.charAt(i);
-            if (c < 'A' || c > 'Z')
-                continue;
-            txt += (char)((c - key.charAt(j) + 26) % 26 + 'A');
+            if (c < 'A' || c > 'Z') continue;
+            res += (char)((c - key.charAt(j) + 26) % 26 + 'A');
             j = ++j % key.length();
         }
-        return txt;
+        return res;
     }
 }
