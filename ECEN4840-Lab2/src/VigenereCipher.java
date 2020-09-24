@@ -3,8 +3,8 @@ public class VigenereCipher {
         String key = "NETWORK";
         String ori = "ITSTIMETOTAKESECURITYSERIOUSLY";
         String enc = encrypt(ori, key);
-        System.out.println(enc);
-        System.out.println(decrypt(enc, key));
+        System.out.println("Post-encryped key: " + enc);
+        System.out.println("Decryption of encrypted key: " + decrypt(enc, key));
     }
 
     static String encrypt(String text, final String key) {

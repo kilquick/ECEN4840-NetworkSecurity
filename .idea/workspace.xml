@@ -28,8 +28,6 @@
     <list default="true" id="c1653368-e34c-4878-9cdd-8a2f6f98126a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ECEN4840-Lab2/src/VigenereCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/VigenereCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ECEN4840-Lab2/AutoVigenereCracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ECEN4840-Lab2/AutoVigenereCracker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ECEN4840-Lab2/VigenereCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ECEN4840-Lab2/VigenereCipher.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600933652365</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Git it, git">
+      <created>1600934177538</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600934177538</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,10 +377,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912569116" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600933653691">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600934178858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600933653691" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934178858" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600827537480" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600894963978">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -398,10 +403,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600908609296" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600931523624">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="234" width="672" height="705" key="search.everywhere.popup" timestamp="1600934795817">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600931523624" />
+    <state x="2543" y="234" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600934795817" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
