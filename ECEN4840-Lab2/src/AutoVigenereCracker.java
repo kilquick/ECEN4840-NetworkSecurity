@@ -27,8 +27,8 @@ public class AutoVigenereCracker {
                 k -= 27;
             }
             sb.append(keys.charAt(k));
-            if (sb.charAt(i) == '[') {
-                sb.setCharAt(i, ' ');
+            if (sb.charAt(i) == '[') {       //  ASCII character shift mapped to space
+                sb.setCharAt(i, ' ');           //if exists, replace with space
             }
             j = ++j % keys.length();
         }
