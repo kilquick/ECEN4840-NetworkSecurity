@@ -1,7 +1,7 @@
 public class VigenereCipher {
     public static void main(String[] args) {
         String key = "NETWORK";
-        String ori = "ITISTIMETOTAKESECURITYSERIOUSLY";
+        String ori = "ITSTIMETOTAKESECURITYSERIOUSLY";
         String enc = encrypt(ori, key);
         System.out.println(enc);
         System.out.println(decrypt(enc, key));
@@ -13,7 +13,7 @@ public class VigenereCipher {
         for (int i = 0, j = 0; i < text.length(); i++) {
             char c = text.charAt(i);
             if (c < 'A' || c > 'Z') continue;
-            res += (char)(((c - 'A') + (key.charAt(j) - 'A')) % 26 + 'A');
+            res += (char)((c + key.charAt(j) - 2 * 'A') % 26 + 'A');
             j = ++j % key.length();
         }
         return res;
