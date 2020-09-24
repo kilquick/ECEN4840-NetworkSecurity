@@ -19,14 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1653368-e34c-4878-9cdd-8a2f6f98126a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECEN4840-Lab2/src/SpatialPolyalphabeticShiftSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/SpatialPolyalphabeticShiftSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECEN4840-Lab2/src/AutoVigenereCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/AutoVigenereCracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,9 +76,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.VigenereCipher">
-    <configuration name="Mod27_SpacialSubstitutionCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mod27_SpacialSubstitutionCipher" />
+  <component name="RunManager" selected="Application.AutoVigenereCracker">
+    <configuration name="AutoVigenereCracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoVigenereCracker" />
       <module name="ECEN4840-Lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,19 +124,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Mod27_SpacialSubstitutionCipher" />
       <item itemvalue="Application.PseudoOTPCipher" />
       <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
       <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
       <item itemvalue="Application.VigenereCipher" />
+      <item itemvalue="Application.AutoVigenereCracker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoVigenereCracker" />
         <item itemvalue="Application.VigenereCipher" />
         <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
         <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
         <item itemvalue="Application.PseudoOTPCipher" />
-        <item itemvalue="Application.Mod27_SpacialSubstitutionCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -292,42 +293,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600738113422" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1600929658839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929658839" />
     <state width="938" height="77" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600890504524" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1600929658839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929658839" />
     <state width="938" height="77" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600890504524" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1600912512752">
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1600929658839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512752" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929658839" />
     <state width="938" height="77" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600890504524" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1600929658839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929658839" />
     <state width="938" height="77" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600890504524" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.1.bottom" timestamp="1600929659821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929659821" />
+    <state width="1877" height="215" key="GridCell.Tab.1.center" timestamp="1600929659821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929659821" />
+    <state width="1877" height="215" key="GridCell.Tab.1.left" timestamp="1600929659821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600912512753">
+    <state width="1877" height="215" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929659821" />
+    <state width="1877" height="215" key="GridCell.Tab.1.right" timestamp="1600929659821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912512753" />
+    <state width="1877" height="215" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600929659821" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1600912569116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -366,6 +367,11 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ECEN4840-Lab2/src/AutoVigenereCracker.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
