@@ -75,7 +75,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.PolyalphabeticSpacialShiftCipher">
+  <component name="RunManager" selected="Application.VigenereCipher">
     <configuration name="Mod27_SpacialSubstitutionCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mod27_SpacialSubstitutionCipher" />
       <module name="ECEN4840-Lab2" />
@@ -97,15 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random27Cipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Random27Cipher" />
+    <configuration name="SpatialPolyalphabeticShiftSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpatialPolyalphabeticShiftSolver" />
       <module name="ECEN4840-Lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomOTPCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomOTPCipher" />
+    <configuration name="VigenereCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VigenereCipher" />
       <module name="ECEN4840-Lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomOTPCipher" />
-      <item itemvalue="Application.Random27Cipher" />
       <item itemvalue="Application.Mod27_SpacialSubstitutionCipher" />
       <item itemvalue="Application.PseudoOTPCipher" />
       <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
+      <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
+      <item itemvalue="Application.VigenereCipher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VigenereCipher" />
+        <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
         <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
         <item itemvalue="Application.PseudoOTPCipher" />
         <item itemvalue="Application.Mod27_SpacialSubstitutionCipher" />
-        <item itemvalue="Application.Random27Cipher" />
-        <item itemvalue="Application.RandomOTPCipher" />
       </list>
     </recent_temporary>
   </component>

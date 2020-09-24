@@ -1,4 +1,4 @@
-public class SpatialPolyalphabeticShiftSolver {
+public class AutoVigenereCracker {
     public static void main(String[] args) {
         String keypool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
         String plain = "YOUR PACKAGE WILL BE READY BY FRIDAY";
