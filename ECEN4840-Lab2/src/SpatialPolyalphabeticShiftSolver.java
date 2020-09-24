@@ -1,7 +1,7 @@
 public class SpatialPolyalphabeticShiftSolver {
     public static void main(String[] args) {
         String keypool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
-        String plain = "YOUR PACKAGE WILL BE READY BY FRIDAY \n";
+        String plain = "YOUR PACKAGE WILL BE READY BY FRIDAY";
         String cipher = "ANKYODKYUREPFJBYOJDSPLREYIUNOFDOIUERFPLUYTS";
 
         System.out.println(getDecryption(plain, keypool, cipher));
