@@ -7,6 +7,7 @@ public class AutoVigenereCracker {
         String plaintxt4 = "MR MUSTARD WITH THE CANDLESTICK IN THE HALL";
         String cipher = "ANKYODKYUREPFJBYOJDSPLREYIUNOFDOIUERFPLUYTS";
 
+        // Padded for display output cleanliness
         System.out.println(plaintxt1 + "        ----->  " + getDecryption(plaintxt1, keypool, cipher));
         System.out.println(plaintxt2 + "  ----->  " + getDecryption(plaintxt2, keypool, cipher));
         System.out.println(plaintxt3 + "                 ----->  " + getDecryption(plaintxt3, keypool, cipher));
