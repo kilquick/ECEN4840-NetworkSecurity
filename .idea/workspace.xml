@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1653368-e34c-4878-9cdd-8a2f6f98126a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PlayfairCipher/PlayfairCipher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayfairCipher/src/PlayfairCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECEN4840-Lab2/src/AutoVigenereCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-Lab2/src/AutoVigenereCracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.AutoVigenereCracker">
+  <component name="RunManager" selected="Application.PlayfairCipher">
     <configuration name="AutoVigenereCracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AutoVigenereCracker" />
       <module name="ECEN4840-Lab2" />
@@ -84,16 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyalphabeticSpacialShiftCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolyalphabeticSpacialShiftCipher" />
-      <module name="ECEN4840-Lab2" />
+    <configuration name="CaesarCipherMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaesarCipherMain" />
+      <module name="ECEN4840-Lab1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoOTPCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PseudoOTPCipher" />
-      <module name="ECEN4840-Lab2" />
+    <configuration name="PlayfairCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayfairCipher" />
+      <module name="PlayfairCipher" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,31 +114,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PseudoOTPCipher" />
-      <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
       <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
       <item itemvalue="Application.VigenereCipher" />
       <item itemvalue="Application.AutoVigenereCracker" />
+      <item itemvalue="Application.PlayfairCipher" />
+      <item itemvalue="Application.CaesarCipherMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoVigenereCracker" />
+        <item itemvalue="Application.PlayfairCipher" />
         <item itemvalue="Application.VigenereCipher" />
+        <item itemvalue="Application.CaesarCipherMain" />
+        <item itemvalue="Application.AutoVigenereCracker" />
         <item itemvalue="Application.SpatialPolyalphabeticShiftSolver" />
-        <item itemvalue="Application.PolyalphabeticSpacialShiftCipher" />
-        <item itemvalue="Application.PseudoOTPCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +162,7 @@
       <workItem from="1600912539854" duration="137000" />
       <workItem from="1600912860226" duration="29000" />
       <workItem from="1600919815424" duration="478000" />
+      <workItem from="1603322754968" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1600737957067</created>
@@ -285,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600934844322</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Git it, git">
+      <created>1600940367993</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600940367993</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +332,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Git it, git" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1603322835867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603322835867" />
     <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600814740887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,55 +360,59 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600738113422" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1600937123626">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603323802549">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603323802549" />
     <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934153576" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600937123626" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1600937123626">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603323802549">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603323802549" />
     <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934153576" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600937123626" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1600937123625">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603323802548">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603323802548" />
     <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934153576" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600937123625" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1600937123626">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603323802549">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603323802549" />
     <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934153576" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600937123626" />
-    <state width="1877" height="225" key="GridCell.Tab.1.bottom" timestamp="1600936040697">
+    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="225" key="GridCell.Tab.1.bottom" timestamp="1600940631841">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="215" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600930465177" />
-    <state width="1877" height="225" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600936040697" />
-    <state width="1877" height="225" key="GridCell.Tab.1.center" timestamp="1600936040697">
+    <state width="1877" height="225" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="225" key="GridCell.Tab.1.center" timestamp="1600940631841">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="215" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600930465177" />
-    <state width="1877" height="225" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600936040697" />
-    <state width="1877" height="225" key="GridCell.Tab.1.left" timestamp="1600936040697">
+    <state width="1877" height="225" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="225" key="GridCell.Tab.1.left" timestamp="1600940631841">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="215" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600930465177" />
-    <state width="1877" height="225" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600936040697" />
-    <state width="1877" height="225" key="GridCell.Tab.1.right" timestamp="1600936040697">
+    <state width="1877" height="225" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
+    <state width="1877" height="225" key="GridCell.Tab.1.right" timestamp="1600940631841">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="215" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600930465177" />
-    <state width="1877" height="225" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600936040697" />
+    <state width="1877" height="225" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940631841" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1600912569116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912569116" />
-    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600934847770">
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600940369742">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934178858" />
-    <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600934847770" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940369742" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600894963978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -406,9 +426,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="0" width="1609" height="828" key="dock-window-1/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600909688531" />
-    <state x="342" y="140" key="new project wizard" timestamp="1600897924032">
+    <state x="342" y="140" key="new project wizard" timestamp="1603322832371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603322832371" />
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600897924032" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600908609296">
       <screen x="0" y="0" width="1920" height="1040" />
