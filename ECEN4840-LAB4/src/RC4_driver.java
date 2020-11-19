@@ -9,8 +9,8 @@ public class RC4_driver {
         char[] key = {'S', 'e', 'c', 'r', 'e', 't'};            // Secret key
         char[] keystream = new char[1024];
         int length = 16;                                           // 16-bit keystream length
+        long startTime;
 
-        long startTime = System.currentTimeMillis();
         System.out.print("\nReading File...\n");
         String fileStream = readFile("ECEN4840-LAB4/src/stream.css");   // input read file
         char[] plainText = fileStream.toCharArray();                            // convert to char array
