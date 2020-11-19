@@ -1,5 +1,5 @@
 /**
- * Implements RC4 encryption cipher.
+ * RC4 class for implementation
  */
 public class RC4 {
     private char[] state;

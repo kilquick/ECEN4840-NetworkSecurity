@@ -26,14 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1653368-e34c-4878-9cdd-8a2f6f98126a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ECEN4840-LAB4/ECEN4840-LAB4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECEN4840-LAB4/src/RC4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECEN4840-LAB4/src/RC4_driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECEN4840-LAB4/src/stream.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECEN4840-LAB5/ECEN4840-LAB5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ECEN4840-Lab2/SpatialPolyalphabeticShiftSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECEN4840-LAB4/src/RC4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ECEN4840-LAB4/src/RC4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +160,7 @@
       <workItem from="1600912860226" duration="29000" />
       <workItem from="1600919815424" duration="478000" />
       <workItem from="1603322754968" duration="1172000" />
-      <workItem from="1605812559110" duration="10677000" />
+      <workItem from="1605812559110" duration="10802000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1600737957067</created>
@@ -302,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600940367993</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="initial commit">
+      <created>1605823406588</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605823406588</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +334,8 @@
     <MESSAGE value="Gunnit" />
     <MESSAGE value="Working?" />
     <MESSAGE value="Git it, git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git it, git" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1603322835867">
@@ -417,9 +418,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600912569116" />
-    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600940369742">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605823414641">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1605823414641" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1600934178858" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1600940369742" />
     <state x="777" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605815131558">
