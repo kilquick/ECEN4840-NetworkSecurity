@@ -8,7 +8,7 @@ public class RC4_driver {
     public static void main(String[] args) throws FileNotFoundException {
         char[] key = {'S', 'e', 'c', 'r', 'e', 't'};            // Secret key
         char[] keystream = new char[1024];
-        int len = 16;                                           // 16-bit keystream length
+        int length = 16;                                           // 16-bit keystream length
 
         long startTime = System.currentTimeMillis();
         System.out.print("\nReading File...\n");
@@ -16,11 +16,11 @@ public class RC4_driver {
         char[] plainText = fileStream.toCharArray();                            // convert to char array
         RC4 cipher = new RC4(key);
         cipher.KSA();
-        cipher.PRNG(keystream, len);
+        cipher.PRNG(keystream, length);
 
         startTime = System.currentTimeMillis();
         System.out.print("\nStarting RC4 encryption...\n");
-        char[] cipherText = encrypt(plainText, keystream, len);
+        char[] cipherText = encrypt(plainText, keystream, length);
         long endTime   = System.currentTimeMillis();
         long totalTime = endTime - startTime;
         System.out.print("Encryption complete. [Task " + totalTime + "ms]\n\nEncrypted file stream:\n");
@@ -29,7 +29,7 @@ public class RC4_driver {
 
 		startTime = System.currentTimeMillis();
 		System.out.print("\n\nStarting RC4 decryption...\n");
-		char[] decryptText = decrypt(cipherText, keystream, len);
+		char[] decryptText = decrypt(cipherText, keystream, length);
 		endTime   = System.currentTimeMillis();
 		totalTime = endTime - startTime;
 		System.out.print("Decryption complete. [Task " + totalTime + "ms]\n\nDecrypted file stream:\n");
@@ -60,13 +60,13 @@ public class RC4_driver {
      * Encrypted the given plain text using the keystream.
      * @param plainText The plain text to encrypt.
      * @param keystream Keystream used to encrypt.
-     * @param len The length of the keystream
+     * @param length The length of the keystream
      * @return Returns a char[] of encrypted text.
      */
-    public static char[] encrypt(char[] plainText, char[] keystream, int len) {
+    public static char[] encrypt(char[] plainText, char[] keystream, int length) {
         char[] cipherText = new char[plainText.length];
         for (int i = 0; i < plainText.length; i++) {
-            cipherText[i] = (char) (plainText[i] ^ keystream[i % len]);
+            cipherText[i] = (char) (plainText[i] ^ keystream[i % length]);
         }
         return cipherText;
     }
@@ -75,11 +75,11 @@ public class RC4_driver {
      *
      * @param cipherText The ciphertext to decrypt.
      * @param keystream The keystream to decrypt the text with.
-     * @param len The length of the keystream
+     * @param length The length of the keystream
      * @return A char[] of the decrypted text.
      */
-    public static char[] decrypt(char[] cipherText, char[] keystream, int len) {
-        return encrypt(cipherText, keystream, len);
+    public static char[] decrypt(char[] cipherText, char[] keystream, int length) {
+        return encrypt(cipherText, keystream, length);
     }
 
 }
