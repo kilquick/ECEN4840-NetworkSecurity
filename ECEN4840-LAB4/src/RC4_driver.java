@@ -10,55 +10,95 @@ import java.util.Scanner;
  */
 public class RC4_driver {
     public static void main(String[] args) throws FileNotFoundException {
-        char[] key = {'K', 'e', 'y'};            // Secret key
+        Scanner input = new Scanner(System.in);
+        Scanner fill = new Scanner(System.in);      // string scanner
+        char[] key = {'F','F','F','F','F','F','F','F','F','F','F','F','F','F','F','F'}; // Secret key
         char[] keystream = new char[1024];
-        int length = 16;                         // 16-bit keystream length
+        int length = 8;                         // key length
+        String fileStream;
+        boolean useFile;
 
-        System.out.print("\nReading File...\n");
-        String fileStream = readFile("ECEN4840-LAB4/src/stream.css");   // input read file
-        char[] plainText = fileStream.toCharArray();                            // convert to char array
-        System.out.print("\nFile stream read into character array -->\n");
-        System.out.println("Converting file stream into byte array...");
-        byte[] plainBytes = fileStream.getBytes(StandardCharsets.US_ASCII);     //Assignment requested byte output
-        RC4 cipher = new RC4(key);
-        cipher.KSA();
-        cipher.PRNG(keystream, length);
+        System.out.println("How many iterations?");
+        int counter = input.nextInt();
 
-        // Encryption and time calculation for both char and byte arrays from  the input stream
-        long startTime = System.currentTimeMillis();
-        System.out.print("\nStarting RC4 encryption...\n");
-        char[] cipherText = encrypt(plainText, keystream, length);
-        long midTime = System.currentTimeMillis();
-        byte[] cipherBytes = encrypt(plainBytes, keystream, length);
-        long endTime   = System.currentTimeMillis();
-        long charTime = midTime - startTime;
-        long byteTime = endTime - midTime;
-        long totalTime = endTime - startTime;
-        System.out.print("Encryption complete. [2 Tasks : " + totalTime + "ms]\n\nEncrypted [charArray] stream : " +
-                "[Task " + charTime + "ms] -->\n");
-        System.out.print(new String(cipherText));
-        System.out.print("\n\nEncrypted [byteArray] stream : [Task " + byteTime + "ms] -->\n");
-        System.out.print(new String(cipherBytes));
+        System.out.println("Use local file initially?");
+        String temp = fill.nextLine();
+        useFile = temp.equalsIgnoreCase("y") || temp.equalsIgnoreCase("yes");
 
-        // Decryption and time calculation for bot char and byte arrays from the input stream
-		startTime = System.currentTimeMillis();
-		System.out.print("\n\nStarting RC4 decryption...\n");
-		char[] decryptText = decrypt(cipherText, keystream, length);
-		midTime = System.currentTimeMillis();
-        byte[] decryptBytes = decrypt(cipherBytes, keystream, length);
-		endTime = System.currentTimeMillis();
-		charTime = midTime - startTime;
-		byteTime = endTime - midTime;
-		totalTime = endTime - startTime;
-        System.out.print("Decryption complete. [2 Tasks : " + totalTime + "ms]\n\nDecrypted [charArray] stream : "
-                + "[Task " + charTime + "ms] -->\n");
-        for (int i = 0; i < decryptText.length; i++){
-            System.out.print(decryptText[i]);
+        if (useFile) {
+            System.out.print("\nReading File...\n");
+            fileStream = readFile("ECEN4840-LAB4/src/stream.css");   // input read file
+
+        } else {
+            input = new Scanner(System.in);
+            System.out.print("Please enter plaintext byte: ");
+            fileStream = input.nextLine();
         }
-		System.out.print("\nDecrypted [byteArray] stream : [Task " + byteTime + "ms] -->\n");
-		for (int i = 0; i < decryptBytes.length; i++) {
-			System.out.print(decryptBytes[i]);
-		}
+
+        input.close();          // Close scanner
+        fill.close();
+
+        do {
+          //  char[] plainText = fileStream.toCharArray();                            // convert to char array
+          //  System.out.print("\nFile stream read into character array -->\n");
+            System.out.println("Converting file stream into byte array...");
+            byte[] plainBytes = fileStream.getBytes(StandardCharsets.UTF_8);     //Assignment requested byte output
+            RC4 cipher = new RC4(key);
+            cipher.KSA();
+            cipher.PRNG(keystream, length);
+
+            // Encryption and time calculation for both char and byte arrays from  the input stream
+            long startTime = System.currentTimeMillis();
+            System.out.print("\nStarting RC4 encryption...\n");
+         //   char[] cipherText = encrypt(plainText, keystream, length);
+         //   long midTime = System.currentTimeMillis();
+            byte[] cipherBytes = encrypt(plainBytes, keystream, length);
+            long endTime = System.currentTimeMillis();
+         //   long charTime = midTime - startTime;
+         //   long byteTime = endTime - midTime;
+            long totalTime = endTime - startTime;
+        //    System.out.print("Encryption complete. [2 Tasks : " + totalTime + "ms]\n\nEncrypted [charArray] stream : " +
+        //            "[Task " + charTime + "ms] -->\n");
+        //    System.out.print(new String(cipherText));
+            System.out.print("Decryption complete. [1 Task(s) : " + totalTime + "ms]\n\n");
+            System.out.print("\n\nEncrypted [byteArray] stream -->\n");
+            System.out.print(new String(cipherBytes));
+
+            // Decryption and time calculation for bot char and byte arrays from the input stream
+            startTime = System.currentTimeMillis();
+            System.out.print("\n\nStarting RC4 decryption...\n");
+            //char[] decryptText = decrypt(cipherText, keystream, length);
+            //midTime = System.currentTimeMillis();
+            byte[] decryptBytes = decrypt(cipherBytes, keystream, length);
+            endTime = System.currentTimeMillis();
+            //charTime = midTime - startTime;
+            //byteTime = endTime - midTime;
+            totalTime = endTime - startTime;
+
+            //StringBuilder cb = new StringBuilder(); //char builder
+            StringBuilder bb = new StringBuilder(); //byte builder
+
+
+            //System.out.print("Decryption complete. [2 Tasks : " + totalTime + "ms]\n\nDecrypted [charArray] stream : "
+              //      + "[Task " + charTime + "ms] -->\n");
+            //for (char c : decryptText) {
+            //    cb.append(c);
+                //  System.out.print(decryptText[i]);
+          //  }
+          //  fileStream = cb.toString();     // update runtime filestream
+          //  System.out.println(fileStream);
+            System.out.print("Decryption complete. [1 Task(s) : " + totalTime + "ms]\n\n");
+            System.out.print("Decrypted [byteArray] stream -->\n");
+
+            for (byte decryptByte : decryptBytes) {
+                bb.append(decryptByte);
+                //	System.out.print(decryptBytes[i]);
+            }
+            fileStream = bb.toString();     // update runtime filestream
+          //  fileStream = new String(decryptBytes, StandardCharsets.UTF_8);
+            System.out.println(fileStream);
+            counter--;
+        } while (counter != 0);
     }
 
     /**
