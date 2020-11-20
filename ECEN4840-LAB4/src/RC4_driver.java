@@ -1,41 +1,60 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 /**
  * Main driver to test RC4
  */
 public class RC4_driver {
     public static void main(String[] args) throws FileNotFoundException {
-        char[] key = {'S', 'e', 'c', 'r', 'e', 't'};            // Secret key
+        char[] key = {'K', 'e', 'y'};            // Secret key
         char[] keystream = new char[1024];
-        int length = 16;                                           // 16-bit keystream length
-        long startTime;
+        int length = 16;                         // 16-bit keystream length
 
         System.out.print("\nReading File...\n");
         String fileStream = readFile("ECEN4840-LAB4/src/stream.css");   // input read file
         char[] plainText = fileStream.toCharArray();                            // convert to char array
+        System.out.print("\nFile stream read into character array -->\n");
+        System.out.println("Converting file stream into byte array...");
+        byte[] plainBytes = fileStream.getBytes(StandardCharsets.US_ASCII);     //Assignment requested byte output
         RC4 cipher = new RC4(key);
         cipher.KSA();
         cipher.PRNG(keystream, length);
 
-        startTime = System.currentTimeMillis();
+        // Encryption and time calculation for both char and byte arrays from  the input stream
+        long startTime = System.currentTimeMillis();
         System.out.print("\nStarting RC4 encryption...\n");
         char[] cipherText = encrypt(plainText, keystream, length);
+        long midTime = System.currentTimeMillis();
+        byte[] cipherBytes = encrypt(plainBytes, keystream, length);
         long endTime   = System.currentTimeMillis();
+        long charTime = midTime - startTime;
+        long byteTime = endTime - midTime;
         long totalTime = endTime - startTime;
-        System.out.print("Encryption complete. [Task " + totalTime + "ms]\n\nEncrypted file stream:\n");
-
+        System.out.print("Encryption complete. [2 Tasks : " + totalTime + "ms]\n\nEncrypted [charArray] stream : " +
+                "[Task " + charTime + "ms] -->\n");
         System.out.print(new String(cipherText));
+        System.out.print("\n\nEncrypted [byteArray] stream : [Task " + byteTime + "ms] -->\n");
+        System.out.print(new String(cipherBytes));
 
+        // Decryption and time calculation for bot char and byte arrays from the input stream
 		startTime = System.currentTimeMillis();
 		System.out.print("\n\nStarting RC4 decryption...\n");
 		char[] decryptText = decrypt(cipherText, keystream, length);
-		endTime   = System.currentTimeMillis();
+		midTime = System.currentTimeMillis();
+        byte[] decryptBytes = decrypt(cipherBytes, keystream, length);
+		endTime = System.currentTimeMillis();
+		charTime = midTime - startTime;
+		byteTime = endTime - midTime;
 		totalTime = endTime - startTime;
-		System.out.print("Decryption complete. [Task " + totalTime + "ms]\n\nDecrypted file stream:\n");
-
-		for (int i = 0; i < decryptText.length; i++) {
-			System.out.print(decryptText[i]);
+        System.out.print("Decryption complete. [2 Tasks : " + totalTime + "ms]\n\nDecrypted [charArray] stream : "
+                + "[Task " + charTime + "ms] -->\n");
+        for (int i = 0; i < decryptText.length; i++){
+            System.out.print(decryptText[i]);
+        }
+		System.out.print("\nDecrypted [byteArray] stream : [Task " + byteTime + "ms] -->\n");
+		for (int i = 0; i < decryptBytes.length; i++) {
+			System.out.print(decryptBytes[i]);
 		}
     }
 
@@ -71,6 +90,14 @@ public class RC4_driver {
         return cipherText;
     }
 
+    public static byte[] encrypt(byte[] plainBytes, char[] keystream, int length) {
+        byte[] cipherBytes = new byte[plainBytes.length];
+        for (int i = 0; i < plainBytes.length; i++) {
+            cipherBytes[i] = (byte) (plainBytes[i] ^ keystream[i % length]);
+        }
+        return cipherBytes;
+    }
+
     /**
      *
      * @param cipherText The ciphertext to decrypt.
@@ -82,4 +109,7 @@ public class RC4_driver {
         return encrypt(cipherText, keystream, length);
     }
 
+    public static byte[] decrypt(byte[] cipherBytes, char[] keystream, int length) {
+        return encrypt(cipherBytes, keystream, length);
+    }
 }
