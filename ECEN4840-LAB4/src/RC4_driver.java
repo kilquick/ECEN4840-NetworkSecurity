@@ -1,11 +1,13 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.nio.charset.StandardCharsets;
+import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
 
 
 /**
- * Main driver class to test RC4
+ * Main driver class to test RC4 -- A lot of the code involving char[] arrays are commented out due to scope of assignment
+ *                                  I originally wrote most of the logic with char arrays before realizing the assignment
+ *                                  explicitly stated to use byte[] arrays.
  * @author tyler
  */
 public class RC4_driver {
@@ -17,6 +19,7 @@ public class RC4_driver {
         int length = 8;                         // key length
         String fileStream;
         boolean useFile;
+        byte[] stringBytes = {0};
 
         System.out.println("How many iterations?");
         int counter = input.nextInt();
@@ -42,7 +45,9 @@ public class RC4_driver {
           //  char[] plainText = fileStream.toCharArray();                            // convert to char array
           //  System.out.print("\nFile stream read into character array -->\n");
             System.out.println("Converting file stream into byte array...");
-            byte[] plainBytes = fileStream.getBytes(StandardCharsets.UTF_8);     //Assignment requested byte output
+            try {
+                stringBytes = fileStream.getBytes("ASCII");     //Assignment requested byte output
+            } catch (UnsupportedEncodingException e){}
             RC4 cipher = new RC4(key);
             cipher.KSA();
             cipher.PRNG(keystream, length);
@@ -52,7 +57,7 @@ public class RC4_driver {
             System.out.print("\nStarting RC4 encryption...\n");
          //   char[] cipherText = encrypt(plainText, keystream, length);
          //   long midTime = System.currentTimeMillis();
-            byte[] cipherBytes = encrypt(plainBytes, keystream, length);
+            byte[] cipherBytes = encrypt(stringBytes, keystream, length);
             long endTime = System.currentTimeMillis();
          //   long charTime = midTime - startTime;
          //   long byteTime = endTime - midTime;
@@ -60,9 +65,9 @@ public class RC4_driver {
         //    System.out.print("Encryption complete. [2 Tasks : " + totalTime + "ms]\n\nEncrypted [charArray] stream : " +
         //            "[Task " + charTime + "ms] -->\n");
         //    System.out.print(new String(cipherText));
-            System.out.print("Decryption complete. [1 Task(s) : " + totalTime + "ms]\n\n");
-            System.out.print("\n\nEncrypted [byteArray] stream -->\n");
-            System.out.print(new String(cipherBytes));
+            System.out.print("Decryption complete. [1 Task(s) : " + totalTime + "ms]\n");
+    //        System.out.print("\nEncrypted [byteArray] stream -->\n");
+    //        System.out.print(new String(cipherBytes));
 
             // Decryption and time calculation for bot char and byte arrays from the input stream
             startTime = System.currentTimeMillis();
