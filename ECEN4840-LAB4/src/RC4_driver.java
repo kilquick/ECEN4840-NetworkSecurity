@@ -23,6 +23,7 @@ public class RC4_driver {
 
         System.out.println("How many iterations?");
         int counter = input.nextInt();
+        int currentCount = 1;
 
         System.out.println("Use local file initially?");
         String temp = fill.nextLine();
@@ -103,6 +104,8 @@ public class RC4_driver {
           //  fileStream = new String(decryptBytes, StandardCharsets.UTF_8);
             System.out.println(fileStream);
             counter--;
+            System.out.println("\n\n" + currentCount + "\n");
+            currentCount++;
         } while (counter != 0);
     }
 
