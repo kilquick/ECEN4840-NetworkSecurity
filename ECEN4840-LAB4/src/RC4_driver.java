@@ -2,8 +2,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
+
+
 /**
- * Main driver to test RC4
+ * Main driver class to test RC4
+ * @author tyler
  */
 public class RC4_driver {
     public static void main(String[] args) throws FileNotFoundException {
@@ -90,6 +93,7 @@ public class RC4_driver {
         return cipherText;
     }
 
+    // Overloaded encrpyt method, same as previous encrypt method except for byte arrays
     public static byte[] encrypt(byte[] plainBytes, char[] keystream, int length) {
         byte[] cipherBytes = new byte[plainBytes.length];
         for (int i = 0; i < plainBytes.length; i++) {
@@ -109,6 +113,7 @@ public class RC4_driver {
         return encrypt(cipherText, keystream, length);
     }
 
+    // Overloaded decrypt method, same as previous decrypt method except for byte arrays
     public static byte[] decrypt(byte[] cipherBytes, char[] keystream, int length) {
         return encrypt(cipherBytes, keystream, length);
     }
