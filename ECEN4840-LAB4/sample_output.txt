@@ -1,0 +1,44 @@
+
+Reading File...
+
+File stream read into character array -->
+Converting file stream into byte array...
+
+Starting RC4 encryption...
+Encryption complete. [2 Tasks : 0ms]
+
+Encrypted [charArray] stream : [Task 0ms] -->
+$Þ :Ú5Ô«=^1=PcÜÓÝ%'Òm}BPå(cÂ¯inpìi
+xvÆ
+$ÜÌØtlcûIqÑ8ÑÙ-nò1Î­uxvÆ
+$Â¯inpìi
+h~ÆaËÚ&sÏ¯%Smm* Ëß!nõ?Þ©:2KÚ2ÜÉÕ+<×"Ãì E,~$Ô,<Ä9Ô«g
+#{Ó Â¯inpìi
+eqÔ	¹æùnhüizm}RaÑî
+z9×¼%SazÜ ÌÓ'`Ó¢/Y2FaÜ%'Ô"Û¾#5ÀÝ$p¼
+
+Encrypted [byteArray] stream : [Task 0ms] -->
+$��� :�5ԫ=^1=�Pc���%'�m��}BP�(c¯�in�p��i
+xv�
+$���tl�c��Iq�8���-n�1έuxv�
+$¯�in�p��i
+h~�a���&s�ϯ%Smm�* ���!n�?ީ:2K�2���+<�"�� E,~�$���,<�9ԫg
+#{� ¯�in�p��i
+eq�	���n�h��izm}�Raх�
+z�9׼%Saz� ���'`�Ӣ/Y2�Faܙ�%'�"۾#�5���$p�
+
+Starting RC4 decryption...
+Decryption complete. [2 Tasks : 0ms]
+
+Decrypted [charArray] stream : [Task 0ms] -->
+<stream>
+    <library encrypted="true" type="RC4" key-bitlength="16" valid="UNKNOWN">
+        <title id="1337">Encrypted Data</title>
+        <data info="Nuclear Launch Codes">This library is a red herring.</data>
+        <info>ECEN 4840 Lab 4 - RC4 implementation.</info>
+    </library>
+</stream>
+
+Decrypted [byteArray] stream : [Task 0ms] -->
+6011511611410197109621032323232601081059811497114121321011109911412111211610110061341161141171013432116121112101613482675234321071011214598105116108101110103116104613449543432118971081051006134857875787987783462103232323232323232601161051161081013210510061344951515534626911099114121112116101100326897116976047116105116108101621032323232323232326010097116973210511010211161347811799108101971143276971171109910432671111001011153462841041051153210810598114971141213210511532973211410110032104101114114105110103466047100971169762103232323232323232601051101021116269676978325256524832769798325232453282675232105109112108101109101110116971161051111104660471051101021116210323232326047108105981149711412162106047115116114101971096210
+Process finished with exit code 0
